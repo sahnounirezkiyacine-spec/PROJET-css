@@ -1,0 +1,112 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #222;
+}
+
+
+.header {
+    background: #000;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h1 {
+    color: #8F3C4D;
+    margin-bottom: 15px;
+}
+
+section h2 {
+    margin-top: 25px;
+}
+
+video, audio {
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* --- Tableau --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th {
+    background: #8F3C4D;
+    color: white;
+    padding: 10px;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+input, button {
+    padding: 8px 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+button {
+    background: #8F3C4D;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #6d2f3c;
+}
+
+
+footer {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
